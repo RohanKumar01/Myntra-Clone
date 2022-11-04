@@ -78,6 +78,7 @@ footer{
     min-height: 40vh;
   }
   
+  /* To make site responsive by using media queries: its like a if statement */
   @media (max-width: 450px) { 
   .search {
       width: 72vw; 
