@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    font-family: 'Fira Sans', sans-serif;
+
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0,0,0,0.15) 0px 2px 2.6px;
+}
+
+.left img{
+    height: 67px;
+    width: 68px;
+}
+
+.container{
+   padding: 0 10vw;
+}
+
+nav{
+    font-size: 15px;
+}
+
+/* this gives css to nav/ul/li (li is inside nav then ul ) */
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section{
+    background: #ffefef;
+    height: 122vh;
+}
+
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid rgb(125, 125, 125);
+    background: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.homeImg{
+    width: 85vw;
+    margin: 12px 0;
+}
